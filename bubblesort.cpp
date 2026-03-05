@@ -69,3 +69,14 @@ void display() {
     cout << endl;
     cout << endl;
 }
+
+int main() {
+
+    input();
+
+    bubbeSortArray();
+    display();
+
+    system("pause");
+    return 0;
+}
